@@ -1,0 +1,95 @@
+.headeR{
+    min-height:100vh ;
+    width: 100%;
+    background-image:url(images/mp.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    background-color: #ffffff10;
+   
+
+  }
+  .header{
+    min-height:100vh ;
+    width: 100%;
+    background-image:url(images/vopo.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+    background-color:#BBE1FA;   
+    box-shadow:o 5px 15px rgba(0, 0, 0, 0.06) ;
+
+  }
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e0f26 ;
+  }
+  nav img{
+    width: 150px;  ;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+
+  }
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color: #811b9d;
+    text-decoration:none;
+    font-size: 18px;
+  }
+  .nav-links ul li a::after{
+    content:'' ;
+    width: 0%; 
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .nav-links ul li :hover::after{
+    width: 100%;
+  }
+  .ven{
+    min-height:100vh ;
+    width: 100%;
+    
+    background-position:center;
+    background-size: cover;
+    position:relative;
+    text-align:center;
+    text-emphasis-color:rgb(236, 236, 243) ;
+    
+    background-color:#BBE1FA;   
+    box-shadow:o 5px 15px rgba(0, 0, 0, 0.06) ;
+  }
+  .knowus{
+    text-align: center;
+   text-decoration-color: #fff;
+  }
+  .hero-btn{
+    display: inline block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  .hero-btn:hover{
+    border: 1px solid #f44336;
+    background:#f44336;
+    transition: 1s;
+  
+  }
